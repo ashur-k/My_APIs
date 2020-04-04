@@ -1,7 +1,7 @@
 function getData(cb) {
     var xhr = new XMLHttpRequest();
 
-    xhr.open("GET", "https://gateway.marvel.com/v1/public/comics?apikey=6ae880be7b37120c2896e366b41398b1");
+    xhr.open("GET", "https://gateway.marvel.com//v1/public/characters?apikey=6ae880be7b37120c2896e366b41398b1");
     xhr.send();
 
     xhr.onreadystatechange = function () {
@@ -11,7 +11,8 @@ function getData(cb) {
     };
 }
 function printDataToConsole(data){
-    console.log(data);
+   console.log(data);
+    
 }
 getData(printDataToConsole);
 
