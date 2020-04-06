@@ -29,7 +29,6 @@ var marvel = {
                     string += "</a>";
                     string += "<h6>" +element.name + "<h6>";
                     string += "</div>";
-
                      if ((i+1) % 4 == 0) {
                         string += "</div>"
                         string += "<div class='row'>" 

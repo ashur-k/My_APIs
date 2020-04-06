@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css">
-    <title>Marvel</title>
+    <title>STARWARS API</title>
 </head>
 <body>
  <div class="container">
-    <h1 class="text-center">Marvel</h1>
-    <h1 id="message" class="lead text-center">...</h1>
-    <div id="marvel-container">
+  <button onclick="writeToDocument('people')">People</button>
+    <button onclick="writeToDocument('planets')">Planets</button>
+    <button onclick="writeToDocument('species')">Species</button>
+    <button onclick="writeToDocument('starships')">Starship</button>
+    <button onclick="writeToDocument('vehicles')">Vehicles</button>
+    <button onclick="writeToDocument('films')">Films</button>
+    <div id="data">
     
     </div>
  </div>
  <footer class="footer">
     <div class="container">
-        <p id="footer" class="text-muted">Place Sticky Footer Content here</p>
+        <p id="footer" class="text-muted">Practicing code</p>
     </div>
  </footer>
- <a href="starwarsapi.html">star wars api code</a>
 <script src="jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="marvel.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

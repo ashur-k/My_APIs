@@ -19,3 +19,13 @@ body {
     padding: 10px;
 
     }
+#data{
+    padding: 10;
+    margin: 10;
+    color: green;
+    
+}
+#data p {
+    width: 150px;
+    border: 2px solid salmon;
+}
